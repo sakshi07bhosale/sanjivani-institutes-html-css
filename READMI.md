@@ -2,19 +2,14 @@ Sanjivani Institute!!
 ![images](images/college-img.png)
 
 ## 📌 Features of the Website
+NBA and NAAc Accedited Engineering program
+ Highly Qualified & Expriance faculty
+Advanced Laboratories & reasearch Facilities 
+Srong placement records in top companies
+Students Clubs,Innovation labs 
 
-- Responsive Navigation Bar  
-- Home Page with Hero Banner  
-- About College Section  
-- Departments Page  
-- Admission Information Page  
-- Contact Page  
-- Login & Signup Forms  
-- Footer with Quick Links  
-- Fully Responsive Design  
-- Clean & Simple UI
 
----
+
 
 ## 🗂️ Pages Included
 
