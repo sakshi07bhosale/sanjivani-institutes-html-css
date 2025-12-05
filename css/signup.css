@@ -238,10 +238,21 @@ form input {
     margin-top: 1px;
     cursor: pointer;
     font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
 }
 
 .signup-btn:hover {
     background: #0443b0;
+}
+
+.signup-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
 }
 
 
