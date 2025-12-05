@@ -82,7 +82,7 @@ nav {
 
 
 .text-content h1 {
-    color: #354350;
+    color: black;
     margin-bottom: 10px;
     text-align: center;
     padding: 40px;
@@ -159,9 +159,6 @@ nav {
     height: 50px;
     width: 40px;
 }
-
-
-
 /* FOOTER */
 .footer-container {
     display: flex;
