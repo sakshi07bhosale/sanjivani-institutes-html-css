@@ -159,6 +159,9 @@ nav {
     height: 50px;
     width: 40px;
 }
+
+
+
 /* FOOTER */
 .footer-container {
     display: flex;
@@ -256,5 +259,6 @@ nav {
     .footer-section-3,
     .footer-section-4 {
         width: 100%;
-    }
+    
+}
 }
