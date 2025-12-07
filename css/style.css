@@ -82,7 +82,7 @@ nav {
 
 
 .text-content h1 {
-    color: #354350;
+    color: black;
     margin-bottom: 10px;
     text-align: center;
     padding: 40px;
@@ -259,5 +259,6 @@ nav {
     .footer-section-3,
     .footer-section-4 {
         width: 100%;
-    }
+    
+}
 }

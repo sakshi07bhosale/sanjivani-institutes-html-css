@@ -344,15 +344,42 @@ form input {
 
 .menu-subitem {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        gap: 15px;
+    }
 
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .main-subheading {
+        flex-direction: column;
+        align-items: center;
+    }
 
-   
+    .card {
+        width: 90%;
+    }
 
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section-1,
+    .footer-section-2,
+    .footer-section-3,
+    .footer-section-4 {
+        width: 100%;
+    }
+}
 
 /*992px*/
 
