@@ -264,3 +264,31 @@ nav {
         gap: 0.8rem;
     }
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer-section-1,
+.footer-section-2,
+.footer-section-3,
+.footer-section-4 {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icon-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
