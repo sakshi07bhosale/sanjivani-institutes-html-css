@@ -7,7 +7,15 @@
 
     body {
       line-height: 1.6;
+<<<<<<< HEAD
        background-color:#cce1ef;
+=======
+<<<<<<< HEAD
+      background-color:#f4f7f9;
+=======
+       background-color:#6c88d6;
+>>>>>>> 26a5ae40a0b78f26258e964ef994520227e24422
+>>>>>>> d7005b4176b9223755ffe2fea46fa397957f5f45
       color: #333;
     }
     .navbar-main-container {
