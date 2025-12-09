@@ -1,3 +1,4 @@
+* /* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     background-color: #cce1ef;
 }
 
+/* CONTACT SECTION */
 .contact-container {
     width: 90%;
     max-width: 900px;
@@ -16,9 +18,8 @@ body {
     background: white;
     border-radius: 15px;
     display: flex;
-    padding: 20px;
     gap: 20px;
-    padding-top: 60px;
+    padding: 60px 20px 20px;
     align-items: center;
 }
 
@@ -58,6 +59,7 @@ form button:hover {
     background-color: #0096c7;
 }
 
+/* IMAGE */
 .image-section {
     width: 50%;
     display: flex;
@@ -70,46 +72,26 @@ form button:hover {
     max-width: 300px;
 }
 
-
-
-
-
 /* FOOTER */
 .footer-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+    align-items: flex-start;
+    padding: 30px 20px;
     background-color: #333;
     color: white;
-}
-
-.footer-section-1 {
-    display: flex;
-    flex-direction: column;
     gap: 20px;
-    width: 900px;
+    flex-wrap: wrap;
 }
 
-.footer-section-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 700px;
-}
-
-.footer-section-3 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 700px;
-}
-
+.footer-section-1,
+.footer-section-2,
+.footer-section-3,
 .footer-section-4 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 700px;
+    gap: 15px;
+    width: 250px;
 }
 
 .social-icon-container {
@@ -119,12 +101,12 @@ form button:hover {
 }
 
 .social-icon {
-    height: 20px;
-    width: 20px;
+    height: 38px;
+    width: 38px;
     cursor: pointer;
     background-color: white;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 50%;
+    padding: 8px;
 }
 
 .contact-item {
@@ -137,15 +119,10 @@ form button:hover {
 
 .menu-subitem {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-@media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-
+/* RESPONSIVE */
 @media (max-width: 900px) {
 
     .navbar-main-container {
@@ -159,7 +136,7 @@ form button:hover {
 
     nav {
         flex-direction: column;
-        gap: 15px;  
+        gap: 15px;
         width: 100%;
         align-items: center;
     }
@@ -182,25 +159,20 @@ form button:hover {
     .logo-container {
         justify-content: center;
     }
-}
 
-    nav {
+    .contact-container {
         flex-direction: column;
-        gap: 10px;
+        text-align: center;
     }
 
-    .main-subheading {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 90%;
+    .form-section,
+    .image-section {
+        width: 100%;
     }
 
     .footer-container {
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
     }
 
     .footer-section-1,
@@ -208,15 +180,6 @@ form button:hover {
     .footer-section-3,
     .footer-section-4 {
         width: 100%;
+        max-width: 400px;
     }
-}
-.social-icon {
-    height: 38px;
-    width: 38px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    position: relative;
-    z-index: 10;
 }
