@@ -15,6 +15,7 @@ body {
     justify-content: space-around;
     position: sticky;
     top: 0;
+
 }
 
 
@@ -289,6 +290,7 @@ form input {
     padding: 20px;
     background-color: #333;
     color: white;
+
 }
 
 .footer-section-1 {
