@@ -34,6 +34,7 @@ body {
 .project-name {
     color: white;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 nav {
     display: flex;
